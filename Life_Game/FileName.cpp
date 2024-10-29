@@ -18,7 +18,7 @@ void CursorView(BOOL b)
     SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &cursorInfo);
 }
 
-// 글자 배경색 설정 위한 열거형
+// 글자 배경색 설정 위한 enum
 enum Color
 {
     BLACK,
